@@ -1,16 +1,42 @@
 /*===========================================================Project CSS=============================================================*/
 body{
     background: #4F518C;
+    font-family: 'Lato', sans-serif;
+    color: #272822;
 }
+h1{
+    clear: both;
+    font-size: 2.25rem;
+    margin-bottom: 0;
+    padding-bottom: 0;
+    font-weight: 900;
+    color: #7FDEFF;
+}
+
+
+h2{
+    color: #2C2A4A;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+h3{
+    font-size: 1.25rem;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
 /* HEADER ============================== */
 
 /* ABOUT ============================== */
 #about{
-    margin: 1.875rem 15rem;
-    padding: 1.875rem;
+    margin: 1.875rem 15rem 0;
+    padding: 1.875rem 1.875rem 0 1.875rem;
 }
-#about h1{
+#about h2{
     margin-top: 0;
+    letter-spacing: .5rem;
+    font-weight: 900;
 }
 #about div{
     background: rgba(218, 191, 255, .9);
@@ -31,25 +57,30 @@ body{
 
 #about p{
     padding: 1.875rem 1.125rem;
-    font-size: 1.25rem;
+    font-size: 1.125rem;
 }
 /* COMPONENTS ============================== */
 #comp{
     margin:0 15rem 1.875rem 15rem;
     padding: 0 1.875rem 1.875rem 1.875rem;
-
 }
 
-h1{
-    clear: both;
+
+article:first-of-type{
+    margin-top: .5rem;
 }
 article {
-    margin-top: 1.875rem;
-    margin-bottom: 1.875rem;
-    padding: 1.875rem;
+    margin-top: 1.25rem;
+    margin-bottom: 1.25rem;
+    padding: 1rem;
     background: #DABFFF;
+    border: 1.25rem solid #272822;
 }
 
 article img{
     width: 800px;
+}
+
+#featured{
+    border: 1.25rem solid #7FDEFF;
 }
