@@ -14,17 +14,15 @@ h1{
     color: #7FDEFF;
 }
 
-
 h2{
     color: #2C2A4A;
-    font-size: 1.5rem;
+    font-size: 1.875rem;
     text-transform: uppercase;
     font-weight: 700;
 }
 h3{
-    font-size: 1.25rem;
+    font-size: 1.125rem;
     text-transform: uppercase;
-    font-weight: 700;
 }
 
 /* HEADER ============================== */
@@ -43,7 +41,7 @@ h3{
 }
 #about div{
     background: rgba(127, 222, 255, .9); /* rgba(218, 191, 255, .9) purple */
-    padding:1.125rem;
+    padding: 1.125rem;
     margin: 0;
 }
 
@@ -75,15 +73,28 @@ h3{
 article:first-of-type{
     margin-top: .5rem;
 }
-article {
-    margin-top: 1.25rem;
-    margin-bottom: 1.25rem;
-    padding: 1rem;
+article{
+    margin: 1.25rem auto;
+    padding: 1.125rem;
     background: #DABFFF;
     border: 1.125rem solid #272822;
 }
 
+#ftTag{
+    width: 7.75rem;
+    position: absolute;
+    bottom: -71.45rem;
+    left: .75rem;
+}
 
+#ftTag p{
+    padding: .25rem;
+    border: 3px solid #7FDEFF;
+    font-size: 1.75rem;
+    background: #7FDEFF;
+    transform: rotate(-90deg);
+    color: #4F518C;
+}
 
 #featured{
     border: 1.125rem solid #7FDEFF;
@@ -93,3 +104,11 @@ video, article img{
     min-width: 300px;
     max-width: 100%;
 }
+
+
+
+
+
+
+
+
