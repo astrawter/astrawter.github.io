@@ -1,4 +1,4 @@
-/*===========================================================Project CSS=============================================================*/
+/*=====================Project CSS=====================*/
 body{
     background: #4F518C;
     font-family: 'Lato', sans-serif;
@@ -96,7 +96,7 @@ article{
 #ftTag{
     width: 7.75rem;
     position: relative;
-    bottom: 1.65rem;
+    bottom: 1.5rem;
     left: -7rem;
     height: 0;
 }
@@ -118,11 +118,44 @@ video, article img{
     min-width: 300px;
     max-width: 100%;
 }
+#how code{
+    background: #272822;
+    color: #fff;
+    margin: .25rem;
+    padding: .25rem;
+    border-radius: 4px;
+    font-weight: 700;
+}
 
+pre{
+    padding: .875rem;
+    border-radius: 3px;
+    background: #272822;
+    display: inline-block;
+    word-break: keep-all;
+    word-wrap: break-word;
+    white-space: pre;
+    white-space: -moz-pre-wrap;
+    white-space: pre-wrap;
+    min-width: 250px;
+    color: #fff;
+}
 
+.selector, .close{
+    color: #FF007F;
+}
+.value{
+    color: #ECE47E;
+}
+.num{
+    color: #C48CFF;
+}
+.col{
+    color: #A7EC21;
+}
 
-
-
-
+ol li {
+    padding: 1rem;
+}
 
 
