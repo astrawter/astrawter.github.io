@@ -3,6 +3,7 @@ body{
     background: #4F518C;
     font-family: 'Lato', sans-serif;
     color: #272822;
+    margin: 0 auto;
 }
 
 h1{
@@ -26,6 +27,18 @@ h3{
 }
 
 /* HEADER ============================== */
+header{
+    width: 28rem;
+    margin: 1.875rem auto;
+    text-align: center;
+}
+header h1{
+    font-size: 3rem;
+    margin-top: -5px;
+    font-weight: 900;
+    color: #aba9f9;
+    text-shadow: 2px 2px 2px #272822;
+}
 
 /* ABOUT ============================== */
 #about{
@@ -82,9 +95,10 @@ article{
 
 #ftTag{
     width: 7.75rem;
-    position: absolute;
-    bottom: -71.45rem;
-    left: .75rem;
+    position: relative;
+    bottom: 1.65rem;
+    left: -7rem;
+    height: 0;
 }
 
 #ftTag p{
