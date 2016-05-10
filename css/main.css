@@ -41,35 +41,32 @@ header h1{
 }
 
 /* ABOUT ============================== */
-#about{
-    margin: 1.875rem auto;
-    padding: 1.875rem auto 0 auto;
-    max-width: 900px;
+section:first-of-type{
+    margin: 1.125rem auto;
+    padding: 1.125rem;
+    max-width: 860px;
     min-width: 360px;
+    background: url("../images/bg.png") no-repeat;
 }
-#about h2{
+section:first-of-type h2{
     margin-top: 0;
     letter-spacing: .5rem;
     font-weight: 900;
 }
-#about div{
+
+#bg{
     background: rgba(127, 222, 255, .9); /* rgba(218, 191, 255, .9) purple */
-    padding: 1.125rem;
+    padding: 1.825rem;
     margin: 0;
 }
 
-#bg:first-child{
-    height: 100%;
-    background: url("../images/bg.png") no-repeat;
-}
-
-#about img{
+section:first-of-type img{
     height: 200px;
     float: left;
     margin-right: 1.25rem;
 }
 
-#about p{
+section:first-of-type p{
     padding: .25rem 1.125rem;
     font-size: 1.125rem;
     line-height: 1.875rem;
@@ -93,27 +90,22 @@ article{
     border: 1.125rem solid #272822;
 }
 
-#ftTag{
-    width: 7.75rem;
-    position: relative;
-    bottom: 1.5rem;
-    left: -7rem;
-    height: 0;
-}
-
-#ftTag p{
-    padding: .25rem;
-    border: 3px solid #7FDEFF;
-    font-size: 1.75rem;
-    background: #7FDEFF;
-    transform: rotate(-90deg);
-    color: #4F518C;
-}
-
 #featured{
     border: 1.125rem solid #7FDEFF;
+    position: relative;
 }
-
+#featured:before{
+    content: 'Featured';
+    position: absolute;
+    width: 7.75rem;
+    padding: .75rem;
+    font-size: 1.75rem;
+    transform: rotate(-90deg);
+    color: #4F518C;
+    background: #7FDEFF;
+    left: -7rem;
+    top: 1.7rem;
+}
 video, article img{
     min-width: 300px;
     max-width: 100%;
