@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Component One | Navigation Bar</title>
+    <link href='https://fonts.googleapis.com/css?family=Raleway:700' rel='stylesheet' type='text/css'>
+    <style>
+        body{
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+        }
+
+        header{
+            background: #211f32;
+            margin: 0;
+            padding: 1.2rem 0;
+            width: 100%;
+        }
+
+        img{
+            padding: .5rem 3rem .5rem 1.25rem;
+            display: inline-block;
+
+            float: left;
+        }
+        nav{
+            display: inline-block;
+            padding-top: .5rem;
+            width: 80%;
+        }
+
+        nav a{
+            font:bold 12px/14px 'Raleway', sans-serif;
+            text-transform: uppercase;
+            text-decoration: none;
+            color: #fff;
+        }
+
+        ul{
+            margin: 0;
+            display: inline-block;
+        }
+
+        ul:first-child{
+            margin-right: 50%;
+            padding-right: 1rem;
+            float: left;
+        }
+
+        li{
+            display: inline-block;
+        }
+
+        li:not(:first-child){
+            margin-left: 1.2rem;
+        }
+
+       /* SOCIAL MENU */
+        ul:nth-child(2){
+            float: left;
+            overflow: hidden;
+            margin: 0;
+            padding: 0 2.5rem 0 1rem;
+        }
+
+        ul:nth-child(2) li{
+            margin-left: 1.35rem;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <a href="#"><img src="images/navlogo.png" alt="Logo" /></a>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Gallery</a></li>
+                <li><a href="#">Blog</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+            <ul>
+                <li><a href="#">G+</a></li>
+                <li><a href="#">P</a></li>
+                <li><a href="#">T</a></li>
+                <li><a href="#">F</a></li>
+            </ul>
+        </nav>
+    </header>
+
+</body>
+</html>
+
+
+<!--
+
+
+-->
