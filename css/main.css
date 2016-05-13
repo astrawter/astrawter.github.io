@@ -71,6 +71,7 @@ section:first-of-type p{
     font-size: 1.125rem;
     line-height: 1.875rem;
 }
+
 /* COMPONENTS ============================== */
 #comp{
     margin: 1.875rem auto;
@@ -78,7 +79,6 @@ section:first-of-type p{
     max-width: 900px;
     min-width: 360px;
 }
-
 
 article:first-of-type{
     margin-top: .5rem;
@@ -123,7 +123,7 @@ pre{
     padding: .875rem;
     border-radius: 3px;
     background: #272822;
-    display: inline-block;
+    display: block;
     word-break: keep-all;
     word-wrap: break-word;
     white-space: pre;
@@ -150,4 +150,22 @@ ol li {
     padding: 1rem;
 }
 
+.btn{
+    text-decoration: none;
+    background: #a7a8c5;
+    background: -moz-linear-gradient(top, #9596ba 25%, #8385ae 50%,#7273a3 75%,#4f518c 100%);
+    background: -webkit-linear-gradient(top, #9596ba 25%, #8385ae 50%,#7273a3 75%,#4f518c 100%);
+    background: linear-gradient(to bottom, #9596ba 25%, #8385ae 50%,#7273a3 75%,#4f518c 100%);
+    text-transform: lowercase;
+    font-variant: small-caps;
+    padding: .5rem .875rem;
+    font-size: 1.2rem;
+    color: #ffffff;
+    white-space: nowrap;
+    margin-bottom: 0px;
+    cursor: pointer;    mbbbvmbbvccxxx
+}
 
+.btn:hover{
+    background: #4F518C;
+}
