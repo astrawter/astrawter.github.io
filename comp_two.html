@@ -3,19 +3,184 @@
 <head>
     <meta charset="UTF-8">
     <title>Component Two | Footer</title>
+    <link href='https://fonts.googleapis.com/css?family=Oswald:400,700' rel='stylesheet' type='text/css'>
+    <style>
+        body{
+            margin: 0;
+        }
+
+        *, *:before, *:after{
+            box-sizing: border-box;
+        }
+
+        section{
+            background: url("images/map.png") no-repeat;
+            background-size: cover;
+            background-position: center;
+        }
+
+        section:first-of-type{
+            height: 498px;
+        }
+
+        #newsletter{
+            background: #ff8023;
+            height: 163px;
+            position: absolute;
+            width: 1170px;
+            z-index: 1;
+            bottom: 25%;
+            left: 10%;
+        }
+
+        #newsletter form{
+            color: #fff;
+            bottom: -79px;
+            width: 100%;
+            padding: 3.5% 0;
+        }
+
+        #newsletter label{
+            width: 20%;
+            float: left;
+            text-align: center;
+            display: inline-block;
+            letter-spacing: 3px;
+            font: 400 26px/50px Oswald;
+        }
+
+        #newsletter input[type="email"]{
+            float: left;
+            width: 40%;
+            height: 50px;
+            color: #fff;
+            font-size: 15px;
+            padding: 10px 20px;
+            border: 0;
+            background: #FF994F;
+        }
+
+        #newsletter input[type="submit"] {
+            width: 30%;
+            height: 50px;
+            line-height: 30px;
+            padding: 5px;
+            margin-left: 30px;
+            border: 0;
+            font-size: 14px;
+            font-weight: bold;
+            text-transform: uppercase;
+            letter-spacing: 0;
+            background: #fff;
+            color: #ff8023
+        }
+
+        ::-webkit-input-placeholder {
+            color:    #fff;
+        }
+
+        :-moz-placeholder {
+            color:    #fff;
+            opacity:  1;
+        }
+
+        ::-moz-placeholder {
+            color:    #fff;
+            opacity:  1;
+        }
+
+        :-ms-input-placeholder {
+            color:    #fff;
+        }
+
+        footer{
+            background: url("images/footer_bg.jpg") no-repeat fixed center;
+            padding: .25rem;
+            height: 962px;
+            position: relative;
+            background-size: cover;
+        }
+
+
+        footer aside{
+            height: 458px;
+            width: 370px;
+            z-index: 2;
+            position: absolute;
+            top: 150px;
+            right: 8%;
+        }
+
+        footer section:last-child{
+            background: rgba(33, 46, 54, 0.8);
+            height: 250px;
+            width: 100%;
+            bottom: 0;
+            position: absolute;
+        }
+
+        h3{
+            letter-spacing: 2px;
+            color: #fff;
+            text-align: center;
+            font: 24px/26px 'Oswald',sans-serif;
+        }
+
+        footer input, textarea{
+            font-size: 14px;
+            width: 100%;
+            color: #333333;
+            padding: 12px 20px 11px;
+            border-width: 0px;
+            background: rgba(255, 255, 255, 0.2);
+            margin-bottom: 10px;
+        }
+        textarea{
+            height: 120px;
+        }
+        footer input[type="submit"]{
+            background: #ff8023;
+            color: #fff;
+            display: block;
+            width: 100%;
+            font-size: 13px;
+            line-height: 30px;
+            font-weight: bold;
+            text-transform: uppercase;
+            padding: 10px;
+        }
+    </style>
 </head>
 <body>
 <section>
-
 </section>
-<section>
 
+<section id="newsletter">
+    <form method="post">
+        <p>
+            <label>Newsletter: </label>
+            <input type="email" name="email" placeholder="Email" required="">
+        </p>
+        <p>
+            <input type="submit" value="Send">
+        </p>
+    </form>
 </section>
-<section>
 
-</section>
 <footer>
+        <aside>
+            <h3>Contact form</h3>
+            <form>
+                <input type="text" name="your-name" value="" size="40" placeholder="Name">
+                <input type="tel" name="phone" value="" size="40" placeholder="Phone">
+                <input type="email" name="your-email" value="" size="40" placeholder="Email">
+                <textarea name="your-message" cols="40" rows="10" placeholder="Message"></textarea>
+                <input type="submit" value="Send">
+        </aside>
+        <section>
 
+        </section>
 </footer>
 </body>
 </html>
+
