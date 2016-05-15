@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d6df7808-ee68-47da-9c5a-4df075debd38" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/navlogo.png" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/comp_one.html" afterPath="$PROJECT_DIR$/comp_one.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/comp_two.html" afterPath="$PROJECT_DIR$/comp_two.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/comp_five.html" afterPath="$PROJECT_DIR$/comp_five.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
     </list>
     <ignored path="astrawter.github.io.iws" />
@@ -30,18 +27,18 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="549">
-              <caret line="115" column="39" selection-start-line="115" selection-start-column="39" selection-end-line="115" selection-end-column="39" />
+            <state relative-caret-position="519">
+              <caret line="112" column="204" selection-start-line="112" selection-start-column="204" selection-end-line="112" selection-end-column="204" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="comp_two.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/comp_two.html">
+      <file leaf-file-name="comp_five.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/comp_five.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" column="105" selection-start-line="5" selection-start-column="105" selection-end-line="5" selection-end-column="105" />
+            <state relative-caret-position="249">
+              <caret line="40" column="35" selection-start-line="40" selection-start-column="35" selection-end-line="40" selection-end-column="35" />
               <folding />
             </state>
           </provider>
@@ -58,6 +55,7 @@
         <option value="$PROJECT_DIR$/css/main.css" />
         <option value="$PROJECT_DIR$/comp_one.html" />
         <option value="$PROJECT_DIR$/comp_two.html" />
+        <option value="$PROJECT_DIR$/comp_five.html" />
         <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
@@ -68,9 +66,9 @@
     <detection-done>true</detection-done>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-3" />
-    <option name="y" value="57" />
-    <option name="width" value="1031" />
+    <option name="x" value="235" />
+    <option name="y" value="23" />
+    <option name="width" value="843" />
     <option name="height" value="873" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
@@ -142,6 +140,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="HbShouldOpenHtmlAsHb" value="" />
     <property name="js-jscs-nodeInterpreter" value="/usr/local/bin/node" />
+    <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file:///Users/Alexandria/Desktop/Github/Classes/WPS/astrawter.github.io/index.html" />
   </component>
   <component name="RunManager">
     <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
@@ -207,18 +206,18 @@
       <updated>1462289591956</updated>
       <workItem from="1462289593118" duration="724000" />
       <workItem from="1462397436101" duration="9378000" />
-      <workItem from="1462568929989" duration="30710000" />
+      <workItem from="1462568929989" duration="34052000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="40812000" />
+    <option name="totallyTimeSpent" value="44154000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-3" y="57" width="1031" height="873" extended-state="0" />
+    <frame x="235" y="23" width="843" height="873" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17920792" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22019465" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32890365" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -305,16 +304,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/comp_two.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
+        <state relative-caret-position="-1215">
           <caret line="5" column="105" selection-start-line="5" selection-start-column="105" selection-end-line="5" selection-end-column="105" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/comp_five.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="249">
+          <caret line="40" column="35" selection-start-line="40" selection-start-column="35" selection-end-line="40" selection-end-column="35" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="549">
-          <caret line="115" column="39" selection-start-line="115" selection-start-column="39" selection-end-line="115" selection-end-column="39" />
+        <state relative-caret-position="519">
+          <caret line="112" column="204" selection-start-line="112" selection-start-column="204" selection-end-line="112" selection-end-column="204" />
           <folding />
         </state>
       </provider>
