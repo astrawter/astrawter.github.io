@@ -4,19 +4,21 @@
     <meta charset="UTF-8">
     <title>Component Two | Footer</title>
     <link href='https://fonts.googleapis.com/css?family=Oswald:400,700' rel='stylesheet' type='text/css'>
+    <link href="css/font-awesome.min.css" rel="stylesheet" type="text/css">
     <style>
         body{
             margin: 0;
         }
-
+        i{
+            font-family: FontAwesome, sans-serif;
+        }
         *, *:before, *:after{
             box-sizing: border-box;
         }
 
         section{
-            background: url("images/map.png") no-repeat;
+            background: url("images/map.png") no-repeat center;
             background-size: cover;
-            background-position: center;
         }
 
         section:first-of-type{
@@ -72,8 +74,10 @@
             text-transform: uppercase;
             letter-spacing: 0;
             background: #fff;
-            color: #ff8023
+            color: #ff8023;
+            transition: all, 0.3s, ease-in-out;
         }
+
 
         ::-webkit-input-placeholder {
             color:    #fff;
@@ -119,6 +123,29 @@
             position: absolute;
         }
 
+        footer section:last-child ul{
+            list-style: none;
+            width: 100%;
+            margin: 5% 35% 2%;
+        }
+        footer section:last-child li{
+            display: inline-block;
+        }
+        footer section:last-child li:not(:first-child){
+            padding-left: 40px;
+        }
+
+        footer a{
+            color: #ffffff;
+            transition: all 0.3s ease;
+            text-decoration: none;
+        }
+        footer a:hover{
+            color: #d65a00;
+        }
+        footer section:last-child a{
+            transition: all 0.3s ease;
+        }
         h3{
             letter-spacing: 2px;
             color: #fff;
@@ -138,6 +165,7 @@
         textarea{
             height: 120px;
         }
+
         footer input[type="submit"]{
             background: #ff8023;
             color: #fff;
@@ -148,6 +176,20 @@
             font-weight: bold;
             text-transform: uppercase;
             padding: 10px;
+            transition: all, 0.3s, ease-in-out;
+        }
+
+        #newsletter input[type="submit"]:hover,input[type="submit"]:hover{
+            background: rgba(0, 0, 0, 0.8);
+        }
+
+        footer p{
+            width: 100%;
+            color: #ffffff;
+            font: 15px/30px 'Oswald',sans-serif;
+            margin: 0 38%;
+            letter-spacing: 2px;
+
         }
     </style>
 </head>
@@ -178,7 +220,14 @@
                 <input type="submit" value="Send">
         </aside>
         <section>
-
+            <ul>
+                <li><a href="#"><i class="fa fa-google-plus fa-3x"></i></a></li>
+                <li><a href="#"><i class="fa fa-twitter fa-3x"></i></a></li>
+                <li><a href="#"><i class="fa fa-facebook fa-3x"></i></a></li>
+                <li><a href="#"><i class="fa fa-instagram fa-3x"></i></a></li>
+                <li><a href="#"><i class="fa fa-linkedin fa-3x"></i></a></li>
+            </ul>
+            <p>Director of photography © 2016 | <a href="#">Privacy Policy</a></p>
         </section>
 </footer>
 </body>

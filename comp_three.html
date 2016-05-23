@@ -2,9 +2,93 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Component Three | </title>
+    <title>Component Three | Video Background</title>
+    <link href='https://fonts.googleapis.com/css?family=PT+Sans:400,700' rel='stylesheet' type='text/css'>
+    <style>
+        *{
+            box-sizing: border-box;
+        }
+        body{
+            margin: 0;
+            font-family: 'PT Sans', sans-serif;
+        }
+        nav a{
+            color: #ffffff;
+            text-decoration: none;
+            font-weight: 700;
+            font-size: 14px;
+            text-transform: uppercase;
+            padding: 2px 8px 3px;
+            border: 2px solid transparent;
+        }
+
+        li{
+            display: inline-block;
+        }
+        li a:hover{
+            border: 2px solid #7FDEFF;
+        }
+
+        nav{
+            height: 3rem; /*48px*/
+            display: inline-block; /*to create the nav as a horizontal list*/
+            margin-left: 35%;
+            padding-top: 4rem;
+        }
+
+
+        video{
+            width: 100%;
+            position: absolute; /*keeps the video in place*/
+            z-index: -1;
+        }
+
+        main{
+            position: absolute;
+            top: 40%;
+            left: 40%;
+        }
+
+        h1{
+            margin-bottom: 0;
+
+
+        }
+        h1 a{
+            color: #ffffff;
+            text-decoration: none;
+            font-size: 3rem; /*64px*/
+            font-weight: 700;
+
+        }
+
+        p{
+            color: #00BFFF;
+            font-size: .75rem;
+            line-height: 2rem;
+            margin-top: 0;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            margin-left: 8%;
+        }
+    </style>
 </head>
 <body>
-
+    <video autoplay loop>
+        <source src="videos/video-bg.mp4" type="video/mp4">
+    </video>
+    <nav>
+    <ul class="sf-menu sf-js-enabled sf-arrows" data-type="navbar">
+        <li class="active"><a href="index.html">Home</a></li>
+        <li><a href="index.html">About</a></li>
+        <li><a href="index.html">Videos</a></li>
+        <li><a href="index.html">News</a></li>
+        <li><a href="index.html">Contacts</a></li>
+    </ul>
+    </nav>
+    <main>
+        <h1><a href="index.html">Videographer</a></h1>
+        <p>professional video solutions</p>
+    </main>
 </body>
 </html>

@@ -4,7 +4,14 @@
     <meta charset="UTF-8">
     <title>Component One | Navigation Bar</title>
     <link href='https://fonts.googleapis.com/css?family=Raleway:700' rel='stylesheet' type='text/css'>
+    <link href="css/font-awesome.min.css" rel="stylesheet" type="text/css">
     <style>
+
+        *, *:after, *:before{
+            box-sizing: border-box;
+            -webkit-box-sizing: border-box;
+            -moz-box-sizing: border-box;
+        }
         body{
             margin: 0;
             padding: 0;
@@ -26,6 +33,7 @@
             float: left;
             margin-top: -.2rem;
         }
+
         nav{
             display: inline-block;
             padding-top: .5rem;
@@ -59,9 +67,14 @@
             margin-left: 1.2rem;
         }
 
+        .active{
+            color: #F17A85;
+        }
+
         a:hover{
             color: #f17a85;
         }
+
        /* SOCIAL MENU */
         ul:nth-child(2){
             float: right;
@@ -73,9 +86,7 @@
         ul:nth-child(2) li{
             margin-left: 1.35rem;
         }
-        *{
-            box-sizing: border-box;
-        }
+
     </style>
 </head>
 <body>
@@ -83,17 +94,17 @@
         <a href="index.html"><img src="images/navlogo.png" alt="Logo" /></a>
         <nav>
             <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Gallery</a></li>
-                <li><a href="#">Blog</a></li>
-                <li><a href="#">Contact</a></li>
+                <li><a href="index.html" class="active"><span data-hover="Home">Home</span></a></li>
+                <li><a href="#"><span data-hover="About">About</span></a></li>
+                <li><a href="#"><span data-hover="Gallery">Gallery</span></a></li>
+                <li><a href="#"><span data-hover="Blog">Blog</span></a></li>
+                <li><a href="#"><span data-hover="Contact">Contact</span></a></li>
             </ul>
             <ul>
-                <li><a href="#">G+</a></li>
-                <li><a href="#">P</a></li>
-                <li><a href="#">T</a></li>
-                <li><a href="#">F</a></li>
+                <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+                <li><a href="#"><i class="fa fa-pinterest"></i></a></li>
+                <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                <li><a href="#"><i class="fa fa-facebook"></i></a></li>
             </ul>
         </nav>
     </header>
