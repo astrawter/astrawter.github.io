@@ -61,6 +61,7 @@
 
         li{
             display: inline-block;
+            margin: 0;
         }
 
         li:not(:first-child){
@@ -75,15 +76,41 @@
             color: #f17a85;
         }
 
+        .sub-menu a:hover{
+            color: #000000;
+        }
+        /*SUBMENU*/
+        .sub-menu{
+            display: none;
+            width: 150px;
+            background: #f17a85;
+            padding: 20px;
+            position: relative;
+            top: 30px;
+            left: -50px;
+
+        }
+        .sub-menu:before{
+            content: '';
+            width: 0;
+            height: 0;
+            border-style: solid;
+            border-width: 0 3px 4px 3px;
+            border-color: transparent transparent #f17a85 transparent;
+            position: absolute;
+            top: -4px;
+            left: 50%;
+            margin-left: -4px;
+        }
        /* SOCIAL MENU */
-        ul:nth-child(2){
+        #social{
             float: right;
             overflow: hidden;
             margin: 0;
             padding: 0 2.5rem 0 1rem;
         }
 
-        ul:nth-child(2) li{
+        #social li{
             margin-left: 1.35rem;
         }
 
@@ -95,12 +122,23 @@
         <nav>
             <ul>
                 <li><a href="index.html" class="active"><span data-hover="Home">Home</span></a></li>
-                <li><a href="#"><span data-hover="About">About</span></a></li>
-                <li><a href="#"><span data-hover="Gallery">Gallery</span></a></li>
+                <li><a href="#"><span class="drop" data-hover="About">About</span></a>
+                    <ul class="sub-menu">
+                        <li><a href="#">Testimonials</a></li>
+                        <li><a href="#">Archives</a></li>
+                    </ul>
+                </li>
+                <li><a href="#"><span class="drop" data-hover="Gallery">Gallery</span></a>
+                    <ul class="sub-menu">
+                        <li><a href="#">Gallery 2</a></li>
+                        <li><a href="#" class="drop">Gallery 3</a></li>
+                        <li><a href="#">Gallery 4</a></li>
+                    </ul>
+                </li>
                 <li><a href="#"><span data-hover="Blog">Blog</span></a></li>
                 <li><a href="#"><span data-hover="Contact">Contact</span></a></li>
             </ul>
-            <ul>
+            <ul id="social">
                 <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
                 <li><a href="#"><i class="fa fa-pinterest"></i></a></li>
                 <li><a href="#"><i class="fa fa-twitter"></i></a></li>
@@ -108,12 +146,26 @@
             </ul>
         </nav>
     </header>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.3/jquery.min.js"></script>
+    <script>
+        $(function(){
 
+            $(".drop").on("hover", function(){
+                $(".sub-menu").css('display', 'block');
+            };
+
+        });
+    </script>
 </body>
 </html>
 
 
 <!--
 
+                            <ul class="sub-menu">
+                                <li><a href="#">Category 1</a></li>
+                                <li><a href="#">Category 2</a></li>
+                                <li><a href="#">Category 3</a></li>
+                            </ul>
 
 -->
