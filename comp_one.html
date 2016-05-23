@@ -81,15 +81,22 @@
         }
         /*SUBMENU*/
         .sub-menu{
-            display: none;
             width: 150px;
             background: #f17a85;
             padding: 20px;
             position: relative;
             top: 30px;
             left: -50px;
-
+            display: none;
         }
+
+        .sub-menu ul a{
+            display: block;
+        }
+        .hidden{
+            display: none;
+        }
+
         .sub-menu:before{
             content: '';
             width: 0;
@@ -146,14 +153,17 @@
             </ul>
         </nav>
     </header>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.3/jquery.min.js"></script>
+    <script src="js/jquery.min.js"></script>
     <script>
         $(function(){
-
-            $(".drop").on("hover", function(){
-                $(".sub-menu").css('display', 'block');
-            };
-
+            $('.drop').hover(
+                    function () {
+                        $(this).closest(".sub-menu li").fadeIn();
+                    },
+                    function () {
+                        $(this).closest(".sub-menu li").fadeOut();
+                    }
+            );
         });
     </script>
 </body>
@@ -161,6 +171,13 @@
 
 
 <!--
+        $(function(){
+
+            $(".drop").on("hover", function(){
+                $(this).closest(".sub-menu").removeClass("hidden");
+            };
+
+        });
 
                             <ul class="sub-menu">
                                 <li><a href="#">Category 1</a></li>

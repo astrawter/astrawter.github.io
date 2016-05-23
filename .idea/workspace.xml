@@ -2,27 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d6df7808-ee68-47da-9c5a-4df075debd38" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/components/1/component.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/components/1/component.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/components/1/componentFPO.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/components/2/component.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/components/2/component.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/components/2/componentFPO.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/components/3/component.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/components/3/component.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/components/3/componentFPO.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/components/4/component.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/components/4/component.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/components/4/componentFPO.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/components/5/component.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/components/5/component.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/components/5/componentFPO.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/400x220.png" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/videos/features_c5.mp4" afterPath="$PROJECT_DIR$/videos/features_c5.mp4" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/astrawter.github.io.iml" afterPath="$PROJECT_DIR$/.idea/astrawter.github.io.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/comp_five.html" afterPath="$PROJECT_DIR$/comp_five.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/comp_four.html" afterPath="$PROJECT_DIR$/comp_four.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/comp_one.html" afterPath="$PROJECT_DIR$/comp_one.html" />
     </list>
     <ignored path="astrawter.github.io.iws" />
@@ -47,7 +26,7 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="566">
+            <state relative-caret-position="236">
               <caret line="114" column="79" selection-start-line="114" selection-start-column="79" selection-end-line="114" selection-end-column="79" />
               <folding />
             </state>
@@ -57,8 +36,9 @@
       <file leaf-file-name="comp_one.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/comp_one.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="536">
-              <caret line="146" column="14" selection-start-line="146" selection-start-column="14" selection-end-line="146" selection-end-column="14" />
+            <state relative-caret-position="266">
+              <caret line="132" column="39" selection-start-line="132" selection-start-column="39" selection-end-line="132" selection-end-column="39" />
+              <caret line="138" column="39" selection-start-line="138" selection-start-column="39" selection-end-line="138" selection-end-column="39" />
               <folding />
             </state>
           </provider>
@@ -98,7 +78,7 @@
     <detection-done>true</detection-done>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="240" />
+    <option name="x" value="138" />
     <option name="y" value="23" />
     <option name="width" value="1211" />
     <option name="height" value="873" />
@@ -256,15 +236,15 @@
       <workItem from="1462397436101" duration="9378000" />
       <workItem from="1462568929989" duration="38198000" />
       <workItem from="1463573734940" duration="8196000" />
-      <workItem from="1463968447045" duration="8076000" />
+      <workItem from="1463968447045" duration="9311000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="64572000" />
+    <option name="totallyTimeSpent" value="65807000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="240" y="23" width="1211" height="873" extended-state="0" />
+    <frame x="138" y="23" width="1211" height="873" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15210085" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -444,7 +424,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="566">
+        <state relative-caret-position="236">
           <caret line="114" column="79" selection-start-line="114" selection-start-column="79" selection-end-line="114" selection-end-column="79" />
           <folding />
         </state>
@@ -452,8 +432,9 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/comp_one.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="536">
-          <caret line="146" column="14" selection-start-line="146" selection-start-column="14" selection-end-line="146" selection-end-column="14" />
+        <state relative-caret-position="266">
+          <caret line="132" column="39" selection-start-line="132" selection-start-column="39" selection-end-line="132" selection-end-column="39" />
+          <caret line="138" column="39" selection-start-line="138" selection-start-column="39" selection-end-line="138" selection-end-column="39" />
           <folding />
         </state>
       </provider>
