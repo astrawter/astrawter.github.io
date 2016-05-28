@@ -38,7 +38,6 @@
             display: inline-block;
             padding-top: .5rem;
             width: 87.988%;
-
         }
 
         nav a{
@@ -46,6 +45,11 @@
             text-transform: uppercase;
             text-decoration: none;
             color: #fff;
+        }
+
+        nav ul li {
+            display:inline-block;
+            position:relative;
         }
 
         ul{
@@ -76,28 +80,29 @@
             color: #f17a85;
         }
 
-        .sub-menu a:hover{
-            color: #000000;
-        }
+
+
         /*SUBMENU*/
-        .sub-menu{
+        .submenu{
             width: 150px;
             background: #f17a85;
             padding: 20px;
-            position: relative;
-            top: 30px;
+            z-index: 1;
+            top: 40px;
             left: -50px;
             display: none;
+            position:absolute;
+
         }
 
-        .sub-menu ul a{
+        .submenu li:first-child{
+            margin-left: 19px;
+        }
+        .submenu a{
             display: block;
         }
-        .hidden{
-            display: none;
-        }
 
-        .sub-menu:before{
+        .submenu:before{
             content: '';
             width: 0;
             height: 0;
@@ -108,6 +113,10 @@
             top: -4px;
             left: 50%;
             margin-left: -4px;
+        }
+
+        .submenu a:hover{
+            color: #000000;
         }
        /* SOCIAL MENU */
         #social{
@@ -121,6 +130,8 @@
             margin-left: 1.35rem;
         }
 
+
+
     </style>
 </head>
 <body>
@@ -129,16 +140,17 @@
         <nav>
             <ul>
                 <li><a href="index.html" class="active"><span data-hover="Home">Home</span></a></li>
-                <li><a href="#"><span class="drop" data-hover="About">About</span></a>
-                    <ul class="sub-menu">
+                <li class="drop"><a href="#"><span data-hover="About">About</span></a>
+                    <ul class="submenu">
                         <li><a href="#">Testimonials</a></li>
                         <li><a href="#">Archives</a></li>
                     </ul>
                 </li>
-                <li><a href="#"><span class="drop" data-hover="Gallery">Gallery</span></a>
-                    <ul class="sub-menu">
+                <li class="drop"><a href="#"><span data-hover="Gallery">Gallery</span></a>
+                    <ul class="submenu">
+                        <li><a href="#">Gallery 1</a></li>
                         <li><a href="#">Gallery 2</a></li>
-                        <li><a href="#" class="drop">Gallery 3</a></li>
+                        <li><a href="#">Gallery 3</a></li>
                         <li><a href="#">Gallery 4</a></li>
                     </ul>
                 </li>
@@ -158,31 +170,13 @@
         $(function(){
             $('.drop').hover(
                     function () {
-                        $(this).closest(".sub-menu li").fadeIn();
+                        $(this).find(".submenu").fadeIn();
                     },
                     function () {
-                        $(this).closest(".sub-menu li").fadeOut();
+                        $(this).find(".submenu").fadeOut();
                     }
             );
         });
     </script>
 </body>
 </html>
-
-
-<!--
-        $(function(){
-
-            $(".drop").on("hover", function(){
-                $(this).closest(".sub-menu").removeClass("hidden");
-            };
-
-        });
-
-                            <ul class="sub-menu">
-                                <li><a href="#">Category 1</a></li>
-                                <li><a href="#">Category 2</a></li>
-                                <li><a href="#">Category 3</a></li>
-                            </ul>
-
--->
